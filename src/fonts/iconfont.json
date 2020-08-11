@@ -1,0 +1,30 @@
+{
+  "id": "2000231",
+  "name": "myapp",
+  "font_family": "my",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "495787",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "880501",
+      "name": "shopping",
+      "font_class": "shoppingb",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "1667263",
+      "name": "user",
+      "font_class": "user",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    }
+  ]
+}

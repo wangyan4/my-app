@@ -1,5 +1,6 @@
 import React from 'react';
-import './App.css';
+import './App.less';
+import './fonts/iconfont.css'
 import { BrowserRouter as Router,Route,Link,Switch,Redirect} from 'react-router-dom';
 import Home from './containers/Home';
 import Shop from './containers/Shop';
@@ -12,9 +13,16 @@ function App() {
       <Router>
         <div className='navheader'>
           <ul>
-            <li><Link to='/home'>首页</Link></li>
-            <li><Link to='/shop'>商店</Link></li>
-            <li><Link to='/about'>关于</Link></li>
+            <li>
+              
+              <Link to='/home'><span className='my iconhome'></span>首页</Link>
+            </li>
+            <li>
+              <Link to='/shop'><span className='my iconshoppingb'></span>商店</Link>
+            </li>
+            <li>
+              <Link to='/about'><span className='my iconuser'></span>关于</Link>
+            </li>
           </ul>
         </div>
         <div className='content'>

@@ -1,0 +1,29 @@
+@font-face {font-family: "my";
+  src: url('iconfont.eot?t=1597137211479'); /* IE9 */
+  src: url('iconfont.eot?t=1597137211479#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAARAAAsAAAAACDAAAAPxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqEOINtATYCJAMQCwoABCAFhCUHQRsQBxFVnInIvsK4hSdNsYFOZaIsgN0N2RHK43AGIjxV0AAAgAIADCUnqB973XvvQojCJOOTku5UsTEVplEta2DjqqrRsxF/3v3aPmbJbBz1PGlD/cy3083PQyWbhEopHjrRM4+DdTW3e8bTGSSanVSV3vmtkztG57YAA8AorIOEVAAksPf/wTX1a5YiB+CLTMziSKHpxKILaEApjHuAZ5hQo08GYzmBdtPMjNMVW1cgStIuEHcLEUFA7KnlSnxoFZpnhibiAjq1lkHOgQfl7+M/7AcRiqYK6XqGzULB8EPmw74W/hdGcwQ4pzPCGkXFJiCJm7PmGwCtPZvatQehWMeAVjUWTlWh+2HfmLmPIm7lvzyqIohmSGwnOCRv5ZcpZbcSHyoVlOwg9wMslaAVHfgEwD8g5ElViiY5MztlkPRVfHiAWn4+pqidT25t5YL/tFoutLWza0wQ0VHDC2ub6OkOLsK0V3MDW6HtyYY8BdNbipSxDWHof7klihbxc9rbyfH+9nE5cutk4RSP4nUh30ahaUZ0wCOU3LNVs1G4Xr0ZUifn3Nz4H3LPq+2zG1xdHT0emluhMLS2MGLbOkqmr0p7t+D2NvClxuH6+vhFuM/cytyF0RNGXGbFDK7w9dabWs5KgCriVKJzYhdB7qbmN1kfmC6/zC6rCzShm2RPVsZelu87AP9Nv5z/o2UvXPSdS7nvjQe1GOfjhUyS5VAneC7FUT8oNTBxzWGL7XBnu2l7p3ry6HIcTHxjt1CdqYenNhtGl0GXYao/kmy6g+u6vahXYaWHdHNZZm1mWXPFCLcV9cpM/vzwTT1+ivy+C5ZvYbPXwUHIPi7DVvKp+yljEIOSGqNko5H6eoQEMaY6GmkFMQUTky+9IrOG8Ta8WOGFKJPoXoZ3V0gEgEZ1F5UBoEHGMRQpfWoDavjXN/P0tSosgKH7Z5SPXvYzeF+HnA3i3E0C/j/Ozpw/mrNjQYY80WT6/JQd9UqnnaCgXXX8vQH6vZ/COgS0xlBsDkLRYgSqYhpN0iw06TAPzYotaLfBNrrDgHC7yDasIwAhPYKi2zOo0ms0Se+hybAHaJY+Q7trb1N2WI759kWJUhplYboBCxlGcVJd95HGAcpVyilJGrqGH0lVYBQ6rHbSWEUUyV17qGrOqTWGWDICV/ZaDZXLDHLJiiijrXmtucdmw3MPsmYYAX1OJEpplIXSDaiQYRTnLt3nHjY+QLlKOSVHLNTvkaqwWyTkYGWfRVfFdCXlqU9R1ZyT1hjCkhFo5WJGVFYPg/h8oyLKaKv8AS7uYaNSeFex9aal5NsTwgyke0aJGhlN8iYjqFfl9Tkv0Fy6o6KQBAAAAAA=') format('woff2'),
+  url('iconfont.woff?t=1597137211479') format('woff'),
+  url('iconfont.ttf?t=1597137211479') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1597137211479#my') format('svg'); /* iOS 4.1- */
+}
+
+.my {
+  font-family: "my" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconhome:before {
+  content: "\e64e";
+}
+
+.iconshoppingb:before {
+  content: "\e63c";
+}
+
+.iconuser:before {
+  content: "\e622";
+}
+

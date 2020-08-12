@@ -77,7 +77,7 @@ module.exports = function(webpackEnv) {
         loader: MiniCssExtractPlugin.loader,
         // css is located in `static/css`, use '../../' to locate index.html folder
         // in production `paths.publicUrlOrPath` can be a relative path
-        options: paths.publicUrlOrPath.startsWith('.')
+        options: paths.publicUrlOrPath.startsWith('./')
           ? { publicPath: '../../' }
           : {},
       },
@@ -300,6 +300,7 @@ module.exports = function(webpackEnv) {
           'scheduler/tracing': 'scheduler/tracing-profiling',
         }),
         ...(modules.webpackAliases || {}),
+        '@': path.resolve(__dirname,'../src')
       },
       plugins: [
         // Adds support for installing with Plug'n'Play, leading to faster installs and adding

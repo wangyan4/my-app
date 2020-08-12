@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.less';
 import './fonts/iconfont.css'
+import 'antd/dist/antd.css';
 import { BrowserRouter as Router,Route,Link,Switch,Redirect} from 'react-router-dom';
-import Home from './containers/Home';
-import Shop from './containers/Shop';
-import About from './containers/About';
+import Home from './containers/Home/Home';
+import Shop from './containers/Shop/Shop';
+import About from './containers/About/About';
 
-function App() {
+function App(props) {
+  console.log(props);
   return (
     <div className="App">
       {/* <h1>hello world</h1> */}
@@ -15,13 +17,13 @@ function App() {
           <ul>
             <li>
               
-              <Link to='/home'><span className='my iconhome'></span>首页</Link>
+              <Link to='/home'><span className='my iconnotepad'></span>记事本</Link>
             </li>
             <li>
               <Link to='/shop'><span className='my iconshoppingb'></span>商店</Link>
             </li>
             <li>
-              <Link to='/about'><span className='my iconuser'></span>关于</Link>
+              <Link to='/about'><span className='my iconuser1'></span>关于</Link>
             </li>
           </ul>
         </div>

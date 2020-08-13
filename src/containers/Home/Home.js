@@ -3,6 +3,7 @@ import { Input, Button, Popover } from 'antd';
 import './index.less'
 import { connect } from 'react-redux';
 import { addItem, delItem, delAllItem, iptchange } from '@/store/actionCreators';
+import { Link } from 'react-router-dom';
 
 class Home extends Component {
   constructor(props) {
@@ -30,8 +31,8 @@ class Home extends Component {
           <Popover
             content={<div>
               <p>确定全部删除吗?</p>
-              <a className='cancle' onClick={this.hide}>取消</a>
-              <a onClick={ ()=>{delAllItem();this.hide() }}>确定</a>
+              <Link className='cancle' href='#' onClick={this.hide}>取消</Link>
+              <Link href='#' onClick={ ()=>{delAllItem();this.hide() }}>确定</Link>
               </div>
               }
             title="Tip"
@@ -76,7 +77,7 @@ const mapDispatchToProps = (dispatch) => {
       dispatch(addItem(val))
     },
     keyAddItem(e){
-      if(e.keyCode == 13){
+      if(e.keyCode === 13){
         dispatch(addItem(e.target.value))
       }
     },

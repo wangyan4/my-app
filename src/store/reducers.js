@@ -17,7 +17,7 @@ export default (state = defaultState, action) => {
       return tmp;
     case actions.ADD_ITEM:
       if(action.text){
-        tmp.list.push(action.text);
+        tmp.list.unshift(action.text);
       }
       tmp.iptv = ''
       loacl.setItem('itemlist',JSON.stringify(tmp));

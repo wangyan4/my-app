@@ -8,7 +8,6 @@ import Shop from './containers/Shop/Shop';
 import About from './containers/About/About';
 
 function App(props) {
-  console.log(props);
   return (
     <div className="App">
       {/* <h1>hello world</h1> */}
@@ -20,7 +19,7 @@ function App(props) {
               <Link to='/home'><span className='my iconnotepad'></span>记事本</Link>
             </li>
             <li>
-              <Link to='/shop'><span className='my iconshoppingb'></span>商店</Link>
+              <Link to='/shop'><span className='my iconshoppingb'></span>Hook</Link>
             </li>
             <li>
               <Link to='/about'><span className='my iconuser1'></span>关于</Link>
